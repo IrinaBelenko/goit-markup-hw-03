@@ -17,6 +17,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -114,12 +116,15 @@ body {
 /*hero*/
 .hero {
   background: var(--dark-header-color);
+  text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 48px;
+  width: 494px;
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   color: var(--light-text-color);
 }
 .modal-button {
@@ -129,6 +134,8 @@ body {
   line-height: 1.5;
   display: flex;
   align-items: center;
+  min-width: 169px;
+  padding: 16px 32px;
   letter-spacing: 0.04em;
   color: var(--light-text-color);
   background: var(--hover-link-color);
