@@ -8,7 +8,7 @@
   --footer-text-color: #e7e9fc;
   --logo-bottom-color: #f4f4fd;
 }
-
+/*common styles*/
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
@@ -25,7 +25,30 @@ body {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
 /*components */
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .text-header-title {
   font-weight: 700;
   font-size: 36px;
@@ -61,10 +84,19 @@ body {
   overflow: hidden;
 }
 /*header*/
-/*.top-header {
+.top-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .top-nav {
-}*/
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .link-logo {
   font-family: "Raleway";
   font-weight: 800;
@@ -73,6 +105,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .web-top {
@@ -84,12 +117,15 @@ body {
   line-height: 1.33;
   color: var(--dark-header-color);
 }
-/*.menu {
+.menu {
+  display: flex;
+  align-items: center;
 }
-.list {
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
 }
-.menu-item {
-}*/
+
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -99,6 +135,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--hover-link-color);
+}
+.email{
+  margin-left: auto;
+  margin-right: 40px;
 }
 .email,
 .phone-number {
@@ -128,7 +168,7 @@ body {
   color: var(--light-text-color);
 }
 .modal-button {
-  font-family: "Roboto", sans-serif; 
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -141,7 +181,6 @@ body {
   background: var(--hover-link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .modal-button:hover,
@@ -152,7 +191,7 @@ body {
 }
 
 /*footer*/
-.footer{
+.footer {
   background: var(--dark-header-color);
 }
 .text-footer {
@@ -176,7 +215,6 @@ body {
   background: var(--logo-bottom-color);
   border: 1px solid var(--footer-text-color);
   border-radius: 4px;
-  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
