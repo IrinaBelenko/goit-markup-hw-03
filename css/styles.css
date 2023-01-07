@@ -94,6 +94,8 @@ button {
 .top-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  background: var(--light-text-color);
+border-bottom: 1px solid var(--footer-text-color);
 }
 .top-nav {
   display: flex;
@@ -242,6 +244,15 @@ button {
   color: var(--logo-bottom-color);
 }
 /*Portfolio*/
+.section-portfolio{
+ padding-top: 96px; 
+ padding-bottom: 120px;
+}
+
+.list-filter-buttons{
+  margin-bottom: 72px;
+  justify-content: center;
+}
 .filter-button {
   font-family: "Roboto", sans-serif;
   background: var(--logo-bottom-color);
@@ -280,3 +291,4 @@ button {
   border: 1px solid var(--footer-text-color);
   border-top: none;
 }
+
