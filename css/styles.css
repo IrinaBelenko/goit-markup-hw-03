@@ -108,8 +108,6 @@ button {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
@@ -221,10 +219,17 @@ button {
 .footer {
   background: var(--dark-header-color);
 }
+
+.block-footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 264px;
+}
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
   color: var(--footer-text-color);
+  margin-top: 16px;
 }
 
 .web-bottom {
