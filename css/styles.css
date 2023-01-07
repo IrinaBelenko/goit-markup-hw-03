@@ -95,7 +95,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   background: var(--light-text-color);
-border-bottom: 1px solid var(--footer-text-color);
+  border-bottom: 1px solid var(--footer-text-color);
 }
 .top-nav {
   display: flex;
@@ -125,7 +125,6 @@ border-bottom: 1px solid var(--footer-text-color);
   color: var(--dark-header-color);
 }
 .menu {
-  /*display: flex;*/
   align-items: center;
 }
 
@@ -165,22 +164,27 @@ border-bottom: 1px solid var(--footer-text-color);
   background: var(--dark-header-color);
   text-align: center;
 }
+
+.block-hero {
+  padding-bottom: 188px;
+  padding-top: 188px;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 48px;
-  width: 494px;
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   color: var(--light-text-color);
+  margin-bottom: 48px;
 }
 .modal-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
+  text-align: center;
   min-width: 169px;
   padding: 16px 32px;
   letter-spacing: 0.04em;
@@ -196,16 +200,18 @@ border-bottom: 1px solid var(--footer-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 /*feature*/
 .section-feature {
   padding-top: 120px;
-  /*padding-bottom: 120px;*/
 }
+
 /*What are we doing*/
 .section-our-works {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 /*Our Team*/
 .section-our-team {
   background: var(--logo-bottom-color);
@@ -213,16 +219,17 @@ border-bottom: 1px solid var(--footer-text-color);
   padding-bottom: 120px;
 }
 
-.our-team-description{
+.our-team-description {
   padding: 24px 16px;
   text-align: center;
 }
+
 /*footer*/
 .footer {
   background: var(--dark-header-color);
 }
 
-.block-footer{
+.block-footer {
   padding-top: 100px;
   padding-bottom: 100px;
   width: 264px;
@@ -243,13 +250,14 @@ border-bottom: 1px solid var(--footer-text-color);
   line-height: 1.17;
   color: var(--logo-bottom-color);
 }
+
 /*Portfolio*/
-.section-portfolio{
- padding-top: 96px; 
- padding-bottom: 120px;
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
-.list-filter-buttons{
+.list-filter-buttons {
   margin-bottom: 72px;
   justify-content: center;
 }
@@ -291,4 +299,3 @@ border-bottom: 1px solid var(--footer-text-color);
   border: 1px solid var(--footer-text-color);
   border-top: none;
 }
-
