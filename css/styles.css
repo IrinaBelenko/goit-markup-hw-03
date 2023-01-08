@@ -113,6 +113,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -131,10 +132,6 @@ button {
   align-items: center; 
 }
 
-.menu-link{
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -145,6 +142,8 @@ button {
   line-height: 1.5;
   color: var(--dark-header-color);
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -168,6 +167,7 @@ button {
   color: var(--dark-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .email:hover,
 .email:focus,
