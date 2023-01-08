@@ -131,7 +131,7 @@ button {
   align-items: center; 
 }
 
-.menu-item{
+.menu-link{
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -156,10 +156,6 @@ button {
   margin-left: auto;
 }
 
-.contact-item{
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .contact-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -169,6 +165,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   color: var(--dark-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .email:hover,
 .email:focus,
